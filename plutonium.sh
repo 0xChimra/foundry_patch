@@ -7,11 +7,11 @@
 # Foundry server to call the Plutonium backend.
 
 MAIN_JS="${FOUNDRY_HOME}/resources/app/main.mjs"
-MODULE_BACKEND_JS="/data/Data/modules/plutonium/server/v9/plutonium-backend.mjs"
+MODULE_BACKEND_JS="/data/Data/modules/plutonium/server/v10/plutonium-backend.mjs"
 MODULE_DIR="/data/Data/modules"
 MODULE_URL="https://github.com/TheGiddyLimit/plutonium-next/raw/master/plutonium-foundry9.zip"
 MODULE_DOC_URL="https://wiki.5e.tools/index.php/FoundryTool_Install"
-SUPPORTED_VERSIONS="9.269"
+SUPPORTED_VERSIONS="10.284"
 WORKDIR=$(mktemp -d)
 ZIP_FILE="${WORKDIR}/plutonium.zip"
 
